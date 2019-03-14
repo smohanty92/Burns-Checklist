@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>1. Feeling sad or down in the dumps</string>
+	<string>2. Feeling unhappy or blue</string>
+	<string>3. Crying spells or tearfulness</string>
+	<string>4. Feeling discouraged</string>
+	<string>5. Feeling hopeless</string>
+	<string>6. Low self-esteem</string>
+	<string>7. Feeling worthless or inadequate
+8 Guilt&apos;or&apos;shame
+9 Criticizing&apos;yourself&apos;or&apos;blaming&apos;others
+10 Difficulty&apos;making&apos;decisions</string>
+	<string>8. Guilt or shame</string>
+	<string>9. Criticizing yourself or blaming others</string>
+	<string>10. Difficulty making decisions</string>
+	<string>11. Loss of interest in family, friends or colleagues</string>
+	<string>12. Loneliness</string>
+	<string>13. Spending less time with family or friends</string>
+	<string>14. Loss of motivation</string>
+	<string>15. Loss of interest in work or other activities</string>
+	<string>16. Avoiding work or other activities</string>
+	<string>17. Loss of pleasure or satisfaction in life</string>
+	<string>18. Feeling tired</string>
+	<string>19. Difficulty sleeping or sleeping too much</string>
+	<string>20. Decreased or increased appetite</string>
+	<string>21. Loss of interest in sex</string>
+	<string>22. Worrying about your health</string>
+	<string>23. Do you have any suicidal thoughts?</string>
+	<string>24. Would you like to end your life?</string>
+	<string>25. Do you have a plan for harming yourself?</string>
+</array>
+</plist>

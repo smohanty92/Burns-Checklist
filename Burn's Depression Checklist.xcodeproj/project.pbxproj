@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C100517A210D0D1400EEBCCD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1005179210D0D1400EEBCCD /* Question.swift */; };
+		C1E432822109146E00B69927 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E432812109146E00B69927 /* AppDelegate.swift */; };
+		C1E432842109146F00B69927 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E432832109146F00B69927 /* ViewController.swift */; };
+		C1E432872109146F00B69927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E432852109146F00B69927 /* Main.storyboard */; };
+		C1E432892109147000B69927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E432882109147000B69927 /* Assets.xcassets */; };
+		C1E4328C2109147000B69927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E4328A2109147000B69927 /* LaunchScreen.storyboard */; };
+		C1E432942109178E00B69927 /* Questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1E432932109178E00B69927 /* Questions.plist */; };
+		C1E4329B210926C500B69927 /* QuestionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E43299210926C500B69927 /* QuestionsTableViewCell.swift */; };
+		C1E4329C210926C500B69927 /* QuestionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1E4329A210926C500B69927 /* QuestionsTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C1005179210D0D1400EEBCCD /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		C1E4327E2109146E00B69927 /* Burn's Depression Checklist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Burn's Depression Checklist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E432812109146E00B69927 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1E432832109146F00B69927 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1E432862109146F00B69927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1E432882109147000B69927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1E4328B2109147000B69927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1E4328D2109147000B69927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E432932109178E00B69927 /* Questions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Questions.plist; sourceTree = "<group>"; };
+		C1E43299210926C500B69927 /* QuestionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewCell.swift; sourceTree = "<group>"; };
+		C1E4329A210926C500B69927 /* QuestionsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionsTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1E4327B2109146E00B69927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1E432752109146E00B69927 = {
+			isa = PBXGroup;
+			children = (
+				C1E432802109146E00B69927 /* Burn's Depression Checklist */,
+				C1E4327F2109146E00B69927 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1E4327F2109146E00B69927 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1E4327E2109146E00B69927 /* Burn's Depression Checklist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1E432802109146E00B69927 /* Burn's Depression Checklist */ = {
+			isa = PBXGroup;
+			children = (
+				C1E432812109146E00B69927 /* AppDelegate.swift */,
+				C1E432832109146F00B69927 /* ViewController.swift */,
+				C1E43299210926C500B69927 /* QuestionsTableViewCell.swift */,
+				C1E432852109146F00B69927 /* Main.storyboard */,
+				C1E432882109147000B69927 /* Assets.xcassets */,
+				C1E4328A2109147000B69927 /* LaunchScreen.storyboard */,
+				C1E4328D2109147000B69927 /* Info.plist */,
+				C1E432932109178E00B69927 /* Questions.plist */,
+				C1E4329A210926C500B69927 /* QuestionsTableViewCell.xib */,
+				C1005179210D0D1400EEBCCD /* Question.swift */,
+			);
+			path = "Burn's Depression Checklist";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1E4327D2109146E00B69927 /* Burn's Depression Checklist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1E432902109147000B69927 /* Build configuration list for PBXNativeTarget "Burn's Depression Checklist" */;
+			buildPhases = (
+				C1E4327A2109146E00B69927 /* Sources */,
+				C1E4327B2109146E00B69927 /* Frameworks */,
+				C1E4327C2109146E00B69927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Burn's Depression Checklist";
+			productName = "Burn's Depression Checklist";
+			productReference = C1E4327E2109146E00B69927 /* Burn's Depression Checklist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1E432762109146E00B69927 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = saroj;
+				TargetAttributes = {
+					C1E4327D2109146E00B69927 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = C1E432792109146E00B69927 /* Build configuration list for PBXProject "Burn's Depression Checklist" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1E432752109146E00B69927;
+			productRefGroup = C1E4327F2109146E00B69927 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1E4327D2109146E00B69927 /* Burn's Depression Checklist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1E4327C2109146E00B69927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E432942109178E00B69927 /* Questions.plist in Resources */,
+				C1E4328C2109147000B69927 /* LaunchScreen.storyboard in Resources */,
+				C1E432892109147000B69927 /* Assets.xcassets in Resources */,
+				C1E432872109146F00B69927 /* Main.storyboard in Resources */,
+				C1E4329C210926C500B69927 /* QuestionsTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1E4327A2109146E00B69927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E432842109146F00B69927 /* ViewController.swift in Sources */,
+				C100517A210D0D1400EEBCCD /* Question.swift in Sources */,
+				C1E432822109146E00B69927 /* AppDelegate.swift in Sources */,
+				C1E4329B210926C500B69927 /* QuestionsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1E432852109146F00B69927 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1E432862109146F00B69927 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1E4328A2109147000B69927 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1E4328B2109147000B69927 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1E4328E2109147000B69927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1E4328F2109147000B69927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1E432912109147000B69927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FB7FLG2REC;
+				INFOPLIST_FILE = "Burn's Depression Checklist/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "saroj.Burn-s-Depression-Checklist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1E432922109147000B69927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FB7FLG2REC;
+				INFOPLIST_FILE = "Burn's Depression Checklist/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "saroj.Burn-s-Depression-Checklist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1E432792109146E00B69927 /* Build configuration list for PBXProject "Burn's Depression Checklist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E4328E2109147000B69927 /* Debug */,
+				C1E4328F2109147000B69927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1E432902109147000B69927 /* Build configuration list for PBXNativeTarget "Burn's Depression Checklist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E432912109147000B69927 /* Debug */,
+				C1E432922109147000B69927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1E432762109146E00B69927 /* Project object */;
+}
